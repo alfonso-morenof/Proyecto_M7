@@ -1,0 +1,25 @@
+# Configuración general del proyecto M7
+seed: 60
+
+split:
+  test_size: 0.2
+  stratify: sentiment
+  random_state: 60
+
+columns:
+  text_in: translated_review
+  text_out: texto_limpio
+  target: sentiment
+
+vectorizer:
+  ngram_range: [1, 2]
+  min_df: 2
+  max_df: 0.95
+  max_features: 40000
+  sublinear_tf: true
+
+model:
+  type: LogisticRegression
+  class_weight: balanced
+  solver: liblinear
+  max_iter: 1000

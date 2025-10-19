@@ -1,0 +1,19 @@
+{
+  "input": {
+    "type": "text",
+    "description": "Texto en lenguaje natural a clasificar"
+  },
+  "output": {
+    "type": "dict",
+    "keys": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "description": "Probabilidades por clase de sentimiento"
+  },
+  "model_info": {
+    "date": "20251018",
+    "hash": "c81ee39e"
+  }
+}

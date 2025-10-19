@@ -1,0 +1,23 @@
+{
+    "precision_macro": 0.844,
+    "recall_macro": 0.877,
+    "f1_macro": 0.859,
+    "accuracy": 0.887,
+    "metrics_by_class": {
+        "neg": {
+            "precision": 0.798,
+            "recall": 0.832,
+            "f1_score": 0.814
+        },
+        "neu": {
+            "precision": 0.783,
+            "recall": 0.895,
+            "f1_score": 0.835
+        },
+        "pos": {
+            "precision": 0.951,
+            "recall": 0.904,
+            "f1_score": 0.927
+        }
+    }
+}
