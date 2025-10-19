@@ -1,0 +1,40 @@
+# === Archivos temporales de Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# === Archivos y carpetas de entorno ===
+.env
+.venv
+*.env
+*.venv
+
+# === Archivos y configuraciones del editor ===
+.vscode/
+.idea/
+
+# === Archivos grandes o temporales ===
+*.zip
+*.tar
+*.gz
+*.tmp
+*.bak
+
+# === Archivos de datos que no deben subirse ===
+data/*.zip
+data/*.parquet
+data/*.tmp
+
+# === Logs del sistema o del proyecto ===
+*.log
+logs/
+
+# === Modelos o binarios grandes (si no usas Git LFS) ===
+*.pkl
+*.joblib
+
+# === Archivos del sistema operativo ===
+.DS_Store
+Thumbs.db
