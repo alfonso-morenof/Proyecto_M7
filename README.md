@@ -35,7 +35,7 @@ Pasos **completos y secuenciales** para ejecutar la API en tu entorno local.
 
 ### 1. Clonar el repositorio
 
-```bash
+
 git clone https://github.com/alfonso-morenof/Proyecto_M7.git
 cd Proyecto_M7
 
@@ -51,11 +51,11 @@ cd Proyecto_M7
 
 ### 3. Instalar dependencias
 
-     pip install -r requirements.txt    
+  pip install -r requirements.txt    
 
 ### 4. Levantar la API localmente
 
-    uvicorn api.main:app --reload   
+  uvicorn api.main:app --reload   
 
   Una vez ejecutada, abre tu navegador y accede a:   
   http://127.0.0.1:8000/docs   
@@ -158,8 +158,8 @@ Accede al navegador en: http://127.0.0.1:8000/docs
 ---
 Autor:
 
-Alfonso Moreno
-Bootcamp Ciencia de Datos e Inteligencia Artificial — Universidad del Desarrollo
+Alfonso Moreno   
+Bootcamp Ciencia de Datos e Inteligencia Artificial — Universidad del Desarrollo   
 email:  alfonso.moreno.farias@gmail.com
 
 
