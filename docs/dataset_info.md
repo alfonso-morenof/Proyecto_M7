@@ -1,5 +1,5 @@
 # Registro de Dataset – Proyecto M7
-Fecha de carga: 18-10-2025 21:33
+Fecha de carga: 20-10-2025 02:29
 
 | Archivo | Filas | Columnas | Tamaño (KB) |
 |----------|-------|----------|--------------|
